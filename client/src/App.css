@@ -1,0 +1,148 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center; /* Align content horizontally to center */
+  align-items: center; /* Align content vertically to center */
+  
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold; /* Make the h1 text bold */
+  text-align: center; /* Align text horizontally to center */
+}
+
+h1 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+/* Navbar Styles */
+nav {
+  background-color: #e9b4b4;
+  padding: 10px;
+  display: flex;
+  justify-content: center; /* Align items to the left and right */
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 10px; /* Adjust spacing between items */
+}
+
+nav ul li:first-child {
+  margin-left: 2000; /* No margin for the first item */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #4d5aca;
+  border-radius: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #0056b3;
+}
+
+nav ul li button {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+nav ul li button:hover {
+  background-color: #dc3545;
+}
+/* Form Styles */
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+form input,
+form textarea,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+.success-message {
+  color: green;
+}
+
+.events-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.event-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+/* Events List Styles */
+.events-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.event-item {
+  background-color: #fff;
+  padding: 15px;
+  margin: 10px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.event-item button {
+  margin-top: 10px;
+  background-color: #28a745;
+}
+
+.event-item button:hover {
+  background-color: #218838;
+}

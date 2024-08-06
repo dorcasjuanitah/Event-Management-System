@@ -43,9 +43,8 @@ def create_registrations(users, events, num_registrations=100):
         user = random.choice(users)
         event = random.choice(events)
         registration = Registration(
-            user_id=user.id,
             event_id=event.id,
-            review=fake.sentence()
+            review=fake.sentence(),
         )
         db.session.add(registration)
     db.session.commit()
